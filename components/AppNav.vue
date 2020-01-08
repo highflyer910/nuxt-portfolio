@@ -30,8 +30,9 @@
      li{
       display: inline-block;
       margin-right: 30px;
-      font-size: 18px;
+      font-size: 20px;
       padding-top: 20px;
+      font-weight: bold;
      }
     }
    }

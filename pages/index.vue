@@ -9,11 +9,11 @@
        <p>with a passion for Vue and graphic design, Tech geek, VR Photographer, Introvert, Life long learner, Curious cat, Stargazer (='.'=)</p>
   	</div>
   	<div class="links">
-  	  <div class="home__links"><a href="https://github.com/highflyer910" aria-label="Github" rel="noopener"><i class="fab fa-github-square" aria-hidden="true"></i></a></div>
-	  <div class="home__links"><a href="https://twitter.com/highflyer910" aria-label="Twitter" rel="noopener"><i class="fab fa-twitter-square" aria-hidden="true"></i></a></div>
-	  <div class="home__links"><a href="https://codepen.io/highflyer/" aria-label="Codepen" rel="noopener"><i class="fab fa-codepen" aria-hidden="true"></i></a></div>
-	  <div class="home__links"><a href="https://dev.to/highflyer910/" aria-label="Dev.to" rel="noopener"><i class="fab fa-dev" aria-hidden="true"></i></a></div>
-	  <div class="home__links"><a href="https://www.behance.net/highflyer910" aria-label="Behance" rel="noopener"><i class="fab fa-behance" aria-hidden="true"></i></a></div>
+  	  <div class="home__links"><a href="https://github.com/highflyer910" aria-label="Github" rel="noopener"><font-awesome-icon :icon="['fab', 'github']" aria-hidden="true" /></a></div>
+	  <div class="home__links"><a href="https://twitter.com/highflyer910" aria-label="Twitter" rel="noopener"><font-awesome-icon :icon="['fab', 'twitter']" aria-hidden="true" /></a></div>
+	  <div class="home__links"><a href="https://codepen.io/highflyer/" aria-label="Codepen" rel="noopener"><font-awesome-icon :icon="['fab', 'codepen']" aria-hidden="true" /></a></div>
+	  <div class="home__links"><a href="https://dev.to/highflyer910/" aria-label="Dev.to" rel="noopener"><font-awesome-icon :icon="['fab', 'dev']" aria-hidden="true" /></a></div>
+	  <div class="home__links"><a href="https://www.behance.net/highflyer910" aria-label="Behance" rel="noopener"><font-awesome-icon :icon="['fab', 'behance']" aria-hidden="true"/></a></div>
   	</div>
   </main>
 </template>
@@ -43,15 +43,19 @@ grid-row-gap: 0px;
 
 .background { 
 	grid-area: 1 / 3 / 6 / 6;  
-	padding-top: 40px;
+	padding-top: 45px;
 	margin-right: 10px;
 }
 .headings { 
 	grid-area: 1 / 1 / 4 / 3; 
-
+    margin-top: 30px;
 	color: #3F3D56;
     padding: 35px;
 
+}
+
+p{
+	padding-top: 15px;
 }
 
 h1{
@@ -63,11 +67,9 @@ h2{
 }
 .links { 
 	grid-area: 4 / 1 / 6 / 3; 
-	font-size: 1.4em;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    max-width: 960px;  /* compatibility large screen fallback */
-    margin: auto;
+	font-size:2em;
+    margin-left: 30px;
+    margin-top: 45px;
 }
 
 .home__links{
@@ -80,7 +82,7 @@ h2{
 a {
   text-decoration: none;
   color: #3F3D56;
-  text-align: center;
+  margin: 10px;
 }
 
 a:hover{
