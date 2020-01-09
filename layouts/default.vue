@@ -44,7 +44,8 @@ h2,
 h3{
   font-family: 'Alfa Slab One', -apple-system, BlinkMacSystemFont, 'Segoe UI',
     Roboto, 'Helvetica Neue', Arial, sans-serif;
-  font-weight: normal; 
+  font-weight: normal;
+  color: #3F3D56;
 }
 
 h1{
