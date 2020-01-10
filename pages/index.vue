@@ -75,8 +75,8 @@ h2{
 .links { 
 	grid-area: 4 / 1 / 6 / 3; 
 	font-size:2em;
-    margin-left: 30px;
-    margin-top: 45px;
+  margin-left: 30px;
+  margin-top: 45px;
 }
 
 .home__links{
