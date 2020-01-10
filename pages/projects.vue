@@ -1,7 +1,7 @@
 <template>
   <main>
     <section>
-    	<h1>Projects</h1>
+    	<h1 class="title">Projects</h1>
      <div v-for="project in githubProjects" :key="project.id" class="project">
        <h3><a :href="project.html_url">{{project.name}}</a></h3>
        <p class="stars">🟊 {{project.stargazers_count}}</p>
@@ -10,7 +10,9 @@
      </div>
     </section>
     <aside>
-      <app-projectpic />
+      <div class="background">
+        <app-projectpic />
+      </div>
       <h3>About</h3>
       <p></p>
     </aside>
@@ -22,6 +24,7 @@ import AppProjectpic from '~/components/AppProjectpic.vue';
 import {mapState} from 'vuex'
 
 export default {
+  transition: 'tweakOpacity',
   components: {
     AppProjectpic
   },
@@ -35,27 +38,42 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.tweakOpacity-enter-active, .tweakOpacity-leave-active {
+      transition: opacity .35s ease-out;
+}
+.tweakOpacity-enter, .tweakOpacity-leave-active {
+      opacity: 0;
+}
+
 main {
-width: 80vw;
-margin: 2% 8%;	
+max-width: 1200px;  
+width: 90vw;
+margin: 2% 6%;	
 display: grid;
 grid-template-columns: 2fr 1fr;
 grid-template-rows: 1fr;
-grid-column-gap: 50px;
-grid-row-gap: 0px;
+grid-column-gap: 4rem;
 }
 
 section{ 
 	grid-area: 1 / 1 / 2 / 2;
-	background-color: white;
+	background-color: #eee;
 	color: #3F3D56;
-	padding: 40px;
+	padding: 2.4rem;
   a{
     color: #FF6584;
+  }
+  .title{
+    margin-bottom: 1.5rem;
+    text-align: center;
   }
 }
 aside { 
 	grid-area: 1 / 2 / 2 / 3;
+  .background {
+  width: 450px;
+  margin: 20px;
+  }
   h3{
   text-align: center;
  }

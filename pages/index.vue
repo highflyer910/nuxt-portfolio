@@ -22,6 +22,7 @@
 import AppMasthead from '~/components/AppMasthead.vue';
 
 export default {
+  transition: 'tweakOpacity',
 	components:{
 		AppMasthead
 	}
@@ -30,6 +31,12 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.tweakOpacity-enter-active, .tweakOpacity-leave-active {
+      transition: opacity .35s ease-out;
+}
+.tweakOpacity-enter, .tweakOpacity-leave-active {
+      opacity: 0;
+}
 
 main {
 width: 100vw;

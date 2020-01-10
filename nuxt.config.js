@@ -17,13 +17,14 @@ export default {
         rel: "stylesheet",
         href:
           "https://fonts.googleapis.com/css?family=Alfa+Slab+One|Roboto&display=swap"
-      }
+      },
+      { rel: '', type: 'text/css', href: '<link to the font or CSS file>' }
     ]
   },
   /*
   ** Customize the progress-bar color
   */
-  loading: { color: '#fff' },
+  loading: false,
   /*
   ** Global CSS
   */
