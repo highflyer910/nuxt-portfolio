@@ -85,7 +85,7 @@ aside {
 }
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
    .projects-page{
     grid-template-columns: 60% 40%;
     width: 100%;
