@@ -55,14 +55,14 @@ grid-row-gap: 0px;
 }
 .headings { 
 	grid-area: 1 / 1 / 4 / 3; 
-    margin-top: 30px;
+  margin-top: 65px;
 	color: #3F3D56;
-    padding: 35px;
+  padding-left: 35px;
 
 }
 
 p{
-	padding-top: 15px;
+	padding-top: 13px;
 }
 
 h1{
@@ -76,7 +76,7 @@ h2{
 	grid-area: 4 / 1 / 6 / 3; 
 	font-size:2em;
   margin-left: 30px;
-  margin-top: 45px;
+  margin-top: 35px;
 }
 
 .home__links{
