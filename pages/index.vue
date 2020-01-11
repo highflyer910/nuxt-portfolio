@@ -50,7 +50,7 @@ grid-row-gap: 0px;
 
 .background { 
 	grid-area: 1 / 3 / 6 / 6;  
-	padding-top: 65px;
+	padding-top: 70px;
 	margin-right: 10px;
 }
 .headings { 
