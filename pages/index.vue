@@ -73,10 +73,10 @@ h2{
 	font-size: 2rem;
 }
 .links { 
-	grid-area: 4 / 1 / 6 / 3; 
+	grid-area: 3 / 1 / 6 / 3; 
 	font-size:2em;
   margin-left: 30px;
-  margin-top: 35px;
+  margin-top: 125px;
 }
 
 .home__links{
