@@ -60,6 +60,7 @@ section{
 	background-color: #eee;
 	color: #3F3D56;
 	padding: 2.4rem;
+  margin-top: 2rem;
   a{
     color: #FF6584;
   }
@@ -73,6 +74,7 @@ aside {
   .background {
   width: 450px;
   margin: 20px;
+  padding-top: 1rem;
   }
   h3{
   text-align: center;
