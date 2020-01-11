@@ -52,10 +52,12 @@ margin: auto;
 display: grid;
 grid-template-columns: 2fr 1fr;
 grid-column-gap: 3.2rem;
+grid-template-areas: "projectSection" "asideAbout";
 }
 
 section{ 
 	grid-area: 1 / 1 / 2 / 2;
+  grid-area: projectSection;
 	background-color: #eee;
 	color: #3F3D56;
 	padding: 2.4rem;
@@ -70,6 +72,7 @@ section{
 }
 aside { 
 	grid-area: 1 / 2 / 2 / 3;
+  grid-area: asideAbout;
   .background {
   width: 450px;
   margin: 20px;
@@ -85,11 +88,14 @@ aside {
 }
 
 
-@media (min-width: 768px) {
+@media (min-width: 480px) {
    .projects-page{
-    grid-template-columns: 5fr 2fr;
+    grid-template-columns: 2fr 1fr;
+    grid-template-areas: "projectSection asideAbout";
+  }
+  .projects-page aside{
     padding: 0;
   }
-  
+ 
 }
 </style>
