@@ -85,14 +85,11 @@ aside {
 }
 
 
-@media screen and (max-width: 768px) {
+@media (min-width: 768px) {
    .projects-page{
     grid-template-columns: 5fr 2fr;
-    width: 100%;
-    margin: 10px 0;
-  }
-  .projects-page aside {
     padding: 0;
   }
+  
 }
 </style>
