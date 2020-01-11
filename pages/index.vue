@@ -6,7 +6,7 @@
   	<div class="headings">
        <h1>Hello, I'm Teona Mushambadze</h1>	
        <h2>Front End Engineer</h2>
-       <p>with a passion for Vue and graphic design, Tech geek, VR Photographer, Introvert, Life long learner, Curious cat, Stargazer (='.'=)</p>
+       <p>with a passion for Vue and graphic design, Tech geek, VR Photographer, Introvert, Life long learner, Curious cats (='.'=)</p>
   	</div>
   	<div class="links">
   	  <div class="home__links"><a href="https://github.com/highflyer910" aria-label="Github" rel="noopener"><font-awesome-icon :icon="['fab', 'github']" aria-hidden="true" /></a></div>
@@ -75,7 +75,7 @@ h2{
 	grid-area: 3 / 1 / 6 / 3; 
 	font-size:2em;
   margin-left: 30px;
-  margin-top: 155px;
+  margin-top: 150px;
 }
 
 .home__links{
