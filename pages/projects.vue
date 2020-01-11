@@ -1,5 +1,5 @@
 <template>
-  <main>
+  <main class="projects-page">
     <section>
     	<h1 class="title">Projects</h1>
      <div v-for="project in githubProjects" :key="project.id" class="project">
@@ -45,14 +45,13 @@ export default {
       opacity: 0;
 }
 
-main {
+.projects-page {
 max-width: 1200px;  
 width: 90vw;
-margin: 2% 6%;	
+margin: auto;	
 display: grid;
 grid-template-columns: 2fr 1fr;
-grid-template-rows: 1fr;
-grid-column-gap: 4rem;
+grid-column-gap: 3.2rem;
 }
 
 section{ 
@@ -83,5 +82,17 @@ aside {
 
 .project{
   margin-bottom: 30px;
+}
+
+
+@media screen and (max-width: 600px) {
+   .projects-page{
+    grid-template-columns: 60% 40%;
+    width: 100%;
+    margin: 10px 0;
+  }
+  .projects-page aside {
+    padding: 0;
+  }
 }
 </style>

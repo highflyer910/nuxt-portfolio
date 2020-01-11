@@ -23,7 +23,7 @@
    	display: flex;
     justify-content: center;
     align-items: center;
-    width: 100vw;
+    width: 100%;
     height: 100%;
     ul {
      padding-left: 0;
@@ -32,8 +32,12 @@
       margin-right: 30px;
       font-size: 20px;
       padding-top: 20px;
-      font-weight: bold;
+      font-weight: 500;
      }
     }
    }
+
+   .nuxt-link-active {
+  border-bottom: 2px solid;
+}
 </style>
