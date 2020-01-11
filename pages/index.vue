@@ -54,8 +54,7 @@ grid-row-gap: 0px;
 	margin-right: 10px;
 }
 .headings { 
-	grid-area: 1 / 1 / 4 / 3; 
-  margin-top: 65px;
+	grid-area: 2 / 1 / 4 / 3; 
 	color: #3F3D56;
   padding-left: 35px;
 
@@ -76,7 +75,7 @@ h2{
 	grid-area: 3 / 1 / 6 / 3; 
 	font-size:2em;
   margin-left: 30px;
-  margin-top: 125px;
+  margin-top: 155px;
 }
 
 .home__links{
