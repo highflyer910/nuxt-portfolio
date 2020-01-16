@@ -14,7 +14,10 @@
         <app-projectpic />
       </div>
       <h3>About</h3>
-      <p></p>
+      <p>
+        I am Teona, a self-taught Front-End Engineer with 2+ years of experience. Deeply in love with Vue and graphic design. 🙃 Tech geek, VR Photographer, Introvert, Life long learner, Curious cat 🐱<br/>
+        You can find more about me at <a href="https://highflyer910.github.io">my portfolio</a>.
+      </p>
     </aside>
   </main>
 </template>
@@ -50,7 +53,7 @@ max-width: 1200px;
 width: 90vw;
 margin: auto;	
 display: grid;
-grid-template-columns: 2fr 1fr;
+grid-template-columns:2fr 1fr;
 grid-column-gap: 3.2rem;
 }
 
@@ -77,6 +80,7 @@ aside {
   }
   h3{
   text-align: center;
+  padding-bottom: 15px;
  }
 }
 
@@ -87,12 +91,12 @@ aside {
 
 @media screen and (max-width: 768px) {
    .projects-page{
-    grid-template-columns: 5fr 2fr;
+    grid-tremplate-columns: 2fr 1fr;
     width: 100%;
-    margin: 10px 0;
-  }
-  .projects-page aside {
-    padding: 0;
+    margin: 10px auto;
+  aside{
+    padding: 0;   
+    }
   }
 }
 </style>

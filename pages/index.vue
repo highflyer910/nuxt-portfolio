@@ -40,7 +40,7 @@ export default {
 
 main {
 width: 100vw;
-height: calc(100vh - 100px);	
+height: calc(100vh - 100px);
 display: grid;
 grid-template-columns: repeat(5, 1fr);
 grid-template-rows: repeat(5, 1fr);
@@ -54,7 +54,7 @@ grid-template-rows: repeat(5, 1fr);
 .headings { 
 	grid-area: 2 / 1 / 4 / 3; 
 	color: #3F3D56;
-  padding-left: 35px;
+    padding-left: 35px;
 
 }
 
@@ -72,25 +72,28 @@ h2{
 .links { 
 	grid-area: 3 / 1 / 6 / 3; 
 	font-size:2em;
-  margin-left: 30px;
-  margin-top: 150px;
-}
-
-.home__links{
+    margin-left: 30px;
+    margin-top: 150px;
+  .home__links{
   display: inline;
   letter-spacing: 7px;
   border-radius: 1em;
   transition: .2s ease;
+  }
 }
 
 a {
   text-decoration: none;
   color: #3F3D56;
   margin: 10px;
+  :hover{
+  	color: #6b6894;
+  }
 }
 
-a:hover{
-  color: #6b6894;
+@media screen and (max-width: 768px) {
+	main{
+		grid-template-columns: 1 / -1;    
+	}
 }
-
 </style>
