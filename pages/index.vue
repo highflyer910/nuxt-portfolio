@@ -93,7 +93,21 @@ a {
 
 @media screen and (max-width: 768px) {
 	main{
-		grid-template-columns: 1 / -1;    
+		grid-template-columns: repeat(4, 1fr);   
+		grid-template-rows: repeat(5, 1fr);
+	}
+	.background{
+       grid-column: 1 / 5;
+       grid-row: 1;
+	}
+	.headings{
+		grid-row: 2/3;
+        grid-column: 1/4;
+	}
+	.links{
+		grid-row: 3/4;
+		grid-column: 1/5;
+
 	}
 }
 </style>
