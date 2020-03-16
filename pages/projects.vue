@@ -55,8 +55,6 @@ margin: auto;
 display: grid;
 grid-template-columns:2fr 1fr;
 grid-column-gap: 3.2rem;
-grid-template-areas: 
-     "section" "aside";
 }
 
 section{ 
@@ -99,14 +97,6 @@ aside {
   aside{
     padding: 0;   
     }
-  }
-}
-
-@media (max-width: 500px) {
-  .projects-page{
-    grid-template-areas: 
-     "aside"
-     "section"
   }
 }
 </style>
