@@ -18,11 +18,11 @@
     "@nuxtjs/axios": "^5.3.6",
     "acorn": "^7.1.1",
     "minimist": "^1.2.5",
-    "nuxt": "^2.0.0",
+    "nuxt": "^2.14.4",
     "nuxt-fontawesome": "^0.4.0"
   },
   "devDependencies": {
-    "node-sass": "^4.13.1",
+    "node-sass": "^4.14.1",
     "sass-loader": "^8.0.0"
   }
 }
