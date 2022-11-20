@@ -18,7 +18,7 @@
     "@nuxtjs/axios": "^5.12.5",
     "acorn": "^8.0.1",
     "minimist": "^1.2.6",
-    "nuxt": "^2.14.4",
+    "nuxt": "^2.15.8",
     "nuxt-fontawesome": "^0.4.0"
   },
   "devDependencies": {
