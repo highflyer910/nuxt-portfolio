@@ -22,7 +22,7 @@
     "nuxt-fontawesome": "^0.4.0"
   },
   "devDependencies": {
-    "node-sass": "^7.0.0",
+    "node-sass": "^7.0.3",
     "sass-loader": "^13.2.0"
   }
 }
